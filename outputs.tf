@@ -43,7 +43,6 @@ output "ec2_instance_arn" {
 output "public_ip_subnet_1" {
 
   value = module.server_subnet_1.public_ip
-
 }
 
 output "public_ip_subnet_3" {
