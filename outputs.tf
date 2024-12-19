@@ -39,3 +39,21 @@ output "ec2_instance_arn" {
   sensitive = true
 
 }
+
+output "public_ip_subnet_1" {
+
+  value = module.server_subnet_1.public_ip
+
+}
+
+output "public_ip_subnet_3" {
+
+  value = module.server_subnet_3.public_ip
+
+}
+
+output "enviroment" {
+
+  value = var.environment
+
+}
