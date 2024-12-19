@@ -532,11 +532,13 @@ resource "aws_security_group" "main" {
     }
   }
 
+  /*
   lifecycle {
 
     create_before_destroy = true
     prevent_destroy       = true
 
   }
+  */
 
 }
